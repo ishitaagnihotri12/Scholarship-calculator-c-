@@ -1,1 +1,1 @@
-# Scholarship-calculator-c-
+# Scholarship-calculator-c++-
