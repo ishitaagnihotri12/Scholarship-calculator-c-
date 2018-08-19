@@ -36,7 +36,7 @@ class arts
   	{cout<<"\n\n\t Do you have any National or Regoinal Certificate ? \n\tPress - 'Y' or 'N': ";
   	 cin>>ans;
 	 if(ans=='y'||ans=='Y')
-	 {cout<<"\n\n\tCongractulations you are eligible for scholarship of Rs. 30000 .\n\tAccording to scholarship scheme by Indian Govt. in the field of arts ! ";
+	 {cout<<"\n\n\tCongratulations you are eligible for scholarship of Rs. 30000 .\n\tAccording to scholarship scheme by Indian Govt. in the field of arts ! ";
 	 scholar=30000;
 	 }
 	 else
@@ -68,7 +68,7 @@ class masters
     scholar=30000;
 	}
 	else if(cgpa<7.0&&cgpa>6.5)
-	{cout<<"\n\n\tCongractulations you are eligible for scholarship of Rs. 25000 !";
+	{cout<<"\n\n\tCongratulations you are eligible for scholarship of Rs. 25000 !";
 	scholar=25000;
 	}
 	else if(cgpa<6.5&&cgpa>5.0)
@@ -91,11 +91,11 @@ public:
 		cout<<"\n\n\tEnter your score obtained (0-150) in All India NIFT test : ";
 		cin>>nift;
 		if(nift>=120)
-		{cout<<"\n\n\tCongractulations you are eligible for scholarship of Rs. 30000 !";
+		{cout<<"\n\n\tCongratulations you are eligible for scholarship of Rs. 30000 !";
 		scholar=30000;
 		}
 		else if(nift<120&&nift>=90)
-		{cout<<"\n\n\tCongractulations you are eligible for scholarship of Rs. 25000 !";
+		{cout<<"\n\n\tCongratulations you are eligible for scholarship of Rs. 25000 !";
 		scholar=25000;
 		}
 		else if(nift<90&&nift>=50)
@@ -120,15 +120,15 @@ class medical
  	cin>>pmt;
  	if(pmt>=150)
  	{
-    cout<<"\n\n\tCongractulation you are eligible for the scholarship of Rs. 50000 !";
+    cout<<"\n\n\tCongratulation you are eligible for the scholarship of Rs. 50000 !";
     scholar=50000;
 	}
 	   else if(pmt>=120&&pmt<150)
-	{cout<<"\n\n\tCongractulations you are eligible for scholarship of Rs. 40000 !";
+	{cout<<"\n\n\tCongratulations you are eligible for scholarship of Rs. 40000 !";
 	scholar=40000;
 	}
 	else if(pmt<120&&pmt>=90)
-	{cout<<"\n\n\tCongractulations you are eligible for scholarship of Rs. 30000 !";
+	{cout<<"\n\n\tCongratulations you are eligible for scholarship of Rs. 30000 !";
 	scholar=30000;
 	}
 	else if(pmt<90&&pmt>=50)
@@ -152,7 +152,7 @@ void engg::enterjee()
 void engg::calcjee()
 {  if(JEE>120)
    {   scholar=50000;
-    cout<<"\n\n\tCongractulation you are eligible for the scholarship of Rs. 50000 !";
+    cout<<"\n\n\tCongratulation you are eligible for the scholarship of Rs. 50000 !";
    }
    else
     { scholar=0;
@@ -190,7 +190,7 @@ void engg::calc12th()
     scholar=30000;
 	}
 	else if(avg<70&&avg>65)
-	{cout<<"\n\n\tCongractulations you are eligible for scholarship of Rs. 25000 !";
+	{cout<<"\n\n\tCongratulations you are eligible for scholarship of Rs. 25000 !";
 	scholar=25000;
 	}
 	else if(avg<65&&avg>50)
@@ -213,18 +213,18 @@ void sports::ask()
 	cin>>n;
 	switch(n) 
 	{case 1:
-		{cout<<"\n\n\tCongractulations you are eligible for scholarship of Rs. 30000 !";
+		{cout<<"\n\n\tCongratulations you are eligible for scholarship of Rs. 30000 !";
 	     scholar=30000;
 		 break;
 		 }
 		
 	 case 2:
-	 	{cout<<"\n\n\tCongractulations you are eligible for scholarship of Rs. 40000 !";
+	 	{cout<<"\n\n\tCongratulations you are eligible for scholarship of Rs. 40000 !";
 		 scholar=40000;
 		 break;
 		 }
 	 case 3:
-	 	{cout<<"\n\n\tCongractulations you are eligible for scholarship of Rs. 50000 !";
+	 	{cout<<"\n\n\tCongratulations you are eligible for scholarship of Rs. 50000 !";
 	 	scholar=50000;
 		 break;
 		 }
